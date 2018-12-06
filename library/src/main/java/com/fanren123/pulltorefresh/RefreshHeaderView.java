@@ -111,12 +111,12 @@ public class RefreshHeaderView extends FrameLayout implements PtrUIHandler {
                 tvContent.setText(PULL);
                 ivArrow.setRotationX(ivArrow.getX() / 2);
                 ivArrow.setRotationY(ivArrow.getY() / 2);
-                ivArrow.setRotation(0);
+                ivArrow.setRotation(180);
             } else {
                 tvContent.setText(UP);
                 ivArrow.setRotationX(ivArrow.getX() / 2);
                 ivArrow.setRotationY(ivArrow.getY() / 2);
-                ivArrow.setRotation(180);
+                ivArrow.setRotation(0);
             }
     }
 }
